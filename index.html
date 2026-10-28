@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jelajahi Kota Lama Semarang, kawasan heritage dengan bangunan bersejarah, spot foto, dan pengalaman wisata menarik."
+    />
+    <title>Jelajahi Kota Lama Semarang</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a
+          class="brand"
+          href="#beranda"
+          aria-label="Jelajahi Kota Lama, beranda"
+          ><span class="brand-mark">K</span
+          ><span>JELAJAHI<span class="brand-light">KOTA LAMA</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Buka navigasi"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#beranda">Beranda</a></li>
+          <li class="dropdown">
+            <button
+              class="dropdown-toggle"
+              id="dropdownToggle"
+              aria-expanded="false"
+            >
+              Jelajahi <span aria-hidden="true">⌄</span>
+            </button>
+            <ul class="dropdown-menu" id="dropdownMenu">
+              <li><a href="#destinasi">Destinasi populer</a></li>
+              <li><a href="#pengalaman">Pengalaman wisata</a></li>
+              <li><a href="#rencana">Rencanakan kunjungan</a></li>
+            </ul>
+          </li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li>
+            <a class="nav-cta" href="#rencana">Mulai Jelajah <span>↗</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="beranda">
+        <img
+          class="hero-image"
+          src="image/kota-lama-hero.png"
+          alt="Ilustrasi suasana jalan dan bangunan heritage Kota Lama Semarang saat senja"
+        />
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">
+            <span></span> WARISAN SEJARAH • SEMARANG, JAWA TENGAH
+          </p>
+          <h1>Setiap sudut punya<br /><em>cerita.</em></h1>
+          <p class="hero-description">
+            Susuri lorong waktu, temukan arsitektur klasik, dan rasakan pesona
+            Kota Lama Semarang yang selalu punya kejutan.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#destinasi"
+              >Temukan Destinasi <span>↗</span></a
+            ><a class="text-link" href="#tentang"
+              ><span class="play-icon">▶</span> Kenali Kota Lama</a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="note-line"></span
+            ><span>ꦏꦶꦛꦭꦩꦱꦼꦩꦫꦁ</span>
+          </div>
+        </div>
+        <div class="hero-index">
+          <span>01</span><span class="index-line"></span><span>03</span>
+        </div>
+      </section>
+
+      <section class="intro-section section-pad" id="tentang">
+        <div class="container intro-grid">
+          <div>
+            <p class="section-kicker">KISAH DI BALIK KOTA</p>
+            <h2>Melangkah ke masa lalu,<br /><em>menikmati hari ini.</em></h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              Kota Lama Semarang adalah kawasan cagar budaya yang menyimpan
+              jejak sejarah melalui bangunan-bangunan tua bergaya Eropa. Kini,
+              kawasan ini menjadi ruang hidup untuk berjalan santai, menikmati
+              seni, berburu foto, dan menemukan cerita baru.
+            </p>
+            <a class="arrow-link" href="#pengalaman"
+              >Jelajahi ceritanya <span>⟶</span></a
+            >
+          </div>
+        </div>
+        <div class="container stats-row">
+          <div>
+            <strong>300<span>+</span></strong
+            ><small>TAHUN JEJAK SEJARAH</small>
+          </div>
+          <div><strong>01</strong><small>KAWASAN HERITAGE</small></div>
+          <div><strong>∞</strong><small>CERITA UNTUK DITEMUKAN</small></div>
+          <p>Datang sebagai pengunjung.<br />Pulang membawa cerita.</p>
+        </div>
+      </section>
+
+      <section class="destinations section-pad" id="destinasi">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">JANGAN LEWATKAN</p>
+              <h2>Ikon yang <em>bercerita.</em></h2>
+            </div>
+            <p>
+              Dari bangunan ikonik hingga sudut tersembunyi, pilih tempat yang
+              ingin kamu jelajahi lebih dulu.
+            </p>
+          </div>
+          <div class="destination-grid">
+            <article class="destination-card card-large">
+              <div class="card-image">
+                <img
+                  src="image/gerejablenduk.jpg"
+                  alt="Bangunan berkubah di kawasan Kota Lama, ilustrasi suasana Gereja Blenduk"
+                /><span class="card-number">01 / LANDMARK</span>
+              </div>
+              <div class="card-body">
+                <div>
+                  <h3>Gereja Blenduk</h3>
+                  <p>
+                    Ikon Kota Lama dengan kubah khas dan arsitektur yang mencuri
+                    perhatian.
+                  </p>
+                </div>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Gereja+Blenduk+Semarang"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Lihat Gereja Blenduk di peta"
+                  >↗</a
+                >
+              </div>
+            </article>
+            <article class="destination-card">
+              <div class="card-image">
+                <img
+                  src="image/gedungmarba.jpg"
+                  alt="Detail bangunan tua bergaya kolonial di Kota Lama Semarang"
+                /><span class="card-number">02 / ARSITEKTUR</span>
+              </div>
+              <div class="card-body">
+                <div>
+                  <h3>Gedung Marba</h3>
+                  <p>
+                    Batu bata merah dan detail klasik yang menjadi latar foto
+                    favorit.
+                  </p>
+                </div>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Gedung+Marba+Semarang"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Lihat Gedung Marba di peta"
+                  >↗</a
+                >
+              </div>
+            </article>
+            <article class="destination-card">
+              <div class="card-image">
+                <img
+                  src="image/taman-srigunting.jpg"
+                  alt="Suasana jalan pedestrian dan bangunan bersejarah di Kota Lama"
+                /><span class="card-number">03 / RUANG PUBLIK</span>
+              </div>
+              <div class="card-body">
+                <div>
+                  <h3>Taman Srigunting</h3>
+                  <p>
+                    Tempat singgah untuk beristirahat dan menikmati suasana
+                    sekitar.
+                  </p>
+                </div>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Taman+Srigunting+Semarang"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Lihat Taman Srigunting di peta"
+                  >↗</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-pad" id="pengalaman">
+        <div class="container experience-grid">
+          <div class="experience-copy">
+            <p class="section-kicker">BUKAN SEKADAR JALAN-JALAN</p>
+            <h2>Temukan caramu<br />menikmati <em>Kota Lama.</em></h2>
+            <p>
+              Setiap orang punya cara sendiri untuk jatuh hati pada kota lama.
+              Mau berburu foto, mengenal sejarah, atau sekadar menikmati
+              suasana?
+            </p>
+            <ul class="experience-list">
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>Heritage walk</strong
+                  ><small>Jelajahi bangunan dan kisah masa lampau.</small>
+                </div>
+                <b>↗</b>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>Photo hunting</strong
+                  ><small>Temukan sudut estetik di sepanjang jalan.</small>
+                </div>
+                <b>↗</b>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>Ngopi & santai</strong
+                  ><small>Istirahat sejenak di kafe bernuansa vintage.</small>
+                </div>
+                <b>↗</b>
+              </li>
+            </ul>
+          </div>
+          <div class="experience-visual">
+            <img
+              src="image/pemandangankotalama.webp"
+              alt="Pemandangan Kota Lama"
+            />
+            <div class="image-stamp">
+              <span>DISCOVER</span><strong>SEMARANG</strong
+              ><span>EST. IN HISTORY</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="planner-section section-pad" id="rencana">
+        <div class="container planner-grid">
+          <div class="planner-intro">
+            <p class="section-kicker">WAKTUNYA JELAJAH</p>
+            <h2>Rencanakan<br />petualangan <em>mu.</em></h2>
+            <p>
+              Isi formulir singkat ini untuk membuat rencana kunjungan. Pilih
+              minatmu dan tentukan waktu yang cocok.
+            </p>
+          </div>
+          <form class="visit-form" id="visitForm">
+            <div class="form-heading">
+              <span>01 — 03</span>
+              <h3>Mulai dari sini.</h3>
+              <p>Informasi pengunjung</p>
+            </div>
+            <div class="form-row">
+              <label for="nama"
+                >Nama lengkap <span>*</span
+                ><input
+                  id="nama"
+                  name="nama"
+                  type="text"
+                  placeholder="Masukkan nama kamu"
+                  required
+                  minlength="2" /></label
+              ><label for="email"
+                >Alamat email <span>*</span
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="nama@email.com"
+                  required
+              /></label>
+            </div>
+            <div class="form-row">
+              <label for="tanggal"
+                >Rencana tanggal kunjungan <span>*</span
+                ><input
+                  id="tanggal"
+                  name="tanggal"
+                  type="date"
+                  required /></label
+              ><label for="jumlah"
+                >Jumlah pengunjung<select id="jumlah" name="jumlah" required>
+                  <option value="" selected disabled>Pilih jumlah</option>
+                  <option>1 orang</option>
+                  <option>2 orang</option>
+                  <option>3–5 orang</option>
+                  <option>Lebih dari 5 orang</option>
+                </select></label
+              >
+            </div>
+            <label for="minat"
+              >Apa yang paling ingin kamu jelajahi? <span>*</span
+              ><select id="minat" name="minat" required>
+                <option value="" selected disabled>
+                  Pilih pengalaman wisata
+                </option>
+                <option>Bangunan dan sejarah</option>
+                <option>Spot foto estetik</option>
+                <option>Kafe dan kuliner</option>
+                <option>Jalan santai bersama keluarga</option>
+                <option>Semua pengalaman</option>
+              </select></label
+            >
+            <label for="pesan"
+              >Catatan tambahan <small>(opsional)</small
+              ><textarea
+                id="pesan"
+                name="pesan"
+                rows="3"
+                placeholder="Tulis kebutuhan atau rencana khususmu..."
+              ></textarea>
+            </label>
+            <label class="consent"
+              ><input type="checkbox" id="consent" required /><span
+                >Saya memastikan data yang diisi benar dan setuju untuk
+                melanjutkan simulasi rencana kunjungan ini.</span
+              ></label
+            >
+            <button class="button button-dark" type="submit">
+              Buat Rencana Kunjungan <span>⟶</span>
+            </button>
+            <p
+              class="form-feedback"
+              id="formFeedback"
+              role="status"
+              aria-live="polite"
+            ></p>
+            <p class="form-disclaimer">
+              Formulir ini merupakan simulasi tugas web dan tidak mengirim data
+              ke server.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand footer-brand" href="#beranda"
+          ><span class="brand-mark">K</span
+          ><span>JELAJAHI<span class="brand-light">KOTA LAMA</span></span></a
+        >
+        <p>AJI WIBOWO<br />A12.2025.07399</p>
+        <a class="back-top" href="#beranda">Kembali ke atas ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Jelajahi Kota Lama Semarang</span
+        ><span>Proyek landing page • HTML, CSS & JavaScript</span
+        ><a
+          href="https://visitjawatengah.jatengprov.go.id/id/destinasi-wisata/kota-lama-semarang"
+          target="_blank"
+          rel="noopener"
+          >Sumber informasi wisata ↗</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
